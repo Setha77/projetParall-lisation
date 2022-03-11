@@ -1,8 +1,53 @@
+
 class Task:
-    name = ""
-    reads = []
-    writes = []
-    run = None
+    def __init__(self, name, writes, reads, run):
+        self.name = name
+        self.writes = writes
+        self.reads = reads
+        self.run = None
+
+list_obj = []
+
+def ajouter(self):
+    print('Entrez nom')
+    name=input()
+    print('Entrez le nombre de valeur ecrites')
+a=input()
+n=int(a)
+writes = []
+for i in range(n):
+    print('Entrez valeur ecrite')
+    x=input()
+    writes.append(x)
+
+
+print('Entrez le nombre de valeur lues')
+n=int(input())
+reads = []
+for i in range(n):
+    print('Entrez valeur lue')
+    x=input()
+    reads.append(x)
+
+print('Entrez le nom de run')
+run=input()
+  
+self = Task(name, writes, reads, run)
+list_obj.append(self)
+print(list_obj)
+
+ajouter(self)
+    
+#def ajouterV2(t):
+#    list_obj.append(t)
+
+
+'''
+    
+class Tasksystem:
+def getDependecies(nomTache):
+
+def run():    
 
 X = None
 Y = None
@@ -18,23 +63,6 @@ def runTsomme():
     global X, Y, Z
     Z = X + Y
 
-t1 = Task()
-t1.name = "T1"
-t1.writes = ["X"]
-t1.run = runT1
-t2 = Task()
-t2.name = "T2"
-t2.writes = ["Y"]
-t2.run = runT2
-tSomme = Task()
-tSomme.name = "somme"
-tSomme.reads = ["X", "Y"]
-tSomme.writes = ["Z"]
-tSomme.run = runTsomme
+t1 = Task("t1", ["X"], runT1)
 
-t1.run()
-t2.run()
-tSomme.run()
-print(X)
-print(Y)
-print(Z)
+'''
