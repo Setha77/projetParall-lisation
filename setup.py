@@ -5,7 +5,7 @@ setup (             #méthode setup qui permettra l’installation de la librair
     version = '1.0' ,
     author= 'Groupe',
     author_email= 'zackboum.zb@gmail.com',
-    description = ' Cette libraire en Python permet d'automatiser la parallélisation maximale de systèmes de tâches'
+    description = " Cette libraire en Python permet d'automatiser la parallélisation maximale de systèmes de tâches"
     licence = ''
     keywords = ''
     url = ''
